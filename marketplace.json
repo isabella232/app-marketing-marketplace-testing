@@ -34,8 +34,8 @@
     ],
     "auxiliary_projects": [
         {
-            "git_uri": "git://github.com/looker/app-marketing-config.git",
-            "git_ref": "eb40ad8b62950f1ee966ae9596c8b2f667417804",
+            "git_uri": "git://github.com/looker/app-marketing-config-marketplace-testing.git",
+            "git_ref": "e526259b2659d177960a5ccf79015f4d4ad1a7da",
             "label": "Marketing App Config",
             "constant_name": "CONFIG_PROJECT_NAME"
         }
