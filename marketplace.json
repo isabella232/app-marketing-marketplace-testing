@@ -1,4 +1,10 @@
 {
+    "label": "Digital Marketing Analytics",
+    "category_label": "Application",
+    "branding": {
+      "image_uri": "fileURL(\"app-icons/icon_digital_marketing.svg\")",
+      "tagline": "Dig into campaigns and keywords, optimize spend and allocation, and maximize channel ROI for your digital marketing sources."
+    },
     "constants": {
         "CONNECTION_NAME": {
             "label": "Connection Name",
