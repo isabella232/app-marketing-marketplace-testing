@@ -5,7 +5,7 @@
       "badge": "Beta",
       "brand_color": "#6c43e0",
       "image_uri": "https://marketplace-api.looker.com/app-icons/icon_digital_marketing.svg",
-      "tagline": "Dig into campaigns and keywords, optimize spend and allocation, and maximize channel ROI for your digital marketing sources."
+      "tagline": "Gain a holistic view of all digital marketing sources to understand your spend and returns."
     },
     "constants": {
         "CONNECTION_NAME": {
