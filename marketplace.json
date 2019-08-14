@@ -3,6 +3,7 @@
     "category_label": "Applications",
     "branding": {
       "badge": "Beta",
+      "brand_color": "#6c43e0",
       "image_uri": "fileURL(\"app-icons/icon_digital_marketing.svg\")",
       "tagline": "Dig into campaigns and keywords, optimize spend and allocation, and maximize channel ROI for your digital marketing sources."
     },
