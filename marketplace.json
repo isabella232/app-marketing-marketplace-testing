@@ -1,0 +1,43 @@
+{
+    "constants": {
+        "CONNECTION_NAME": {
+            "label": "Connection Name",
+            "description": "The connection that houses your Marketing data. (Should have been created using Fivetran)",
+            "value_constraint": "connection"
+        },
+        "ADWORDS_SCHEMA_NAME": {
+            "label": "Adwords Schema Name",
+            "description": "The schema name of your Adwords data."
+        },
+        "BING_ADS_SCHEMA_NAME": {
+            "label": "Bing Ads Schema Name",
+            "description": "The schema name of your Bing Ads data."
+        },
+        "FACEBOOK_ADS_SCHEMA_NAME": {
+            "label": "Facebook Ads Schema Name",
+            "description": "The schema name of your Facebook Ads data."
+        },
+        "LINKEDIN_ADS_SCHEMA_NAME": {
+            "label": "LinkedIn Ads Schema Name",
+            "description": "The schema name of your LinkedIn Ads data."
+        },
+        "CONFIG_PROJECT_NAME": {
+            "label": "Config Project Name",
+            "description": "Name of the config project."
+        }
+    },
+    "models": [
+        {
+            "name": "marketing_analytics",
+            "connection_constant": "CONNECTION_NAME"
+        }
+    ],
+    "auxiliary_projects": [
+        {
+            "git_uri": "git://github.com/looker/app-marketing-config.git",
+            "git_ref": "eb40ad8b62950f1ee966ae9596c8b2f667417804",
+            "label": "Marketing App Config",
+            "constant_name": "CONFIG_PROJECT_NAME"
+        }
+    ]
+}
