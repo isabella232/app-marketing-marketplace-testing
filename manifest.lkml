@@ -9,6 +9,7 @@ application: digital-marketing {
 
 constant: CONNECTION_NAME {
   value: "looker_application"
+  export: override_required
 }
 
 constant: ADWORDS_SCHEMA_NAME {
