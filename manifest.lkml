@@ -101,7 +101,7 @@ remote_dependency: app-marketing-google-ads {
 # LookML for analysis and content for Facebook Ads
 remote_dependency: app-marketing-facebook-ads {
   url: "git://github.com/looker/app-marketing-facebook-ads"
-  ref: "4f9d5e46d3eaef90f43db4937a7d2b1fee33db9e"
+  ref: "8abee567d93a52e9bae12f5e02f95d69c1c12b51"
 }
 
 # LookML for analysis and content for LinkedIn Ads
