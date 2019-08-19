@@ -1,7 +1,7 @@
 include: "//app-marketing-bing-ads-adapter/*.view"
 include: "//app-marketing-bing-ads/*.view"
 include: "//app-marketing-bing-ads/*.dashboard"
-include: "//@{CONFIG_PROJECT_NAME}/bing_ads_config.view"
+include: "//@{CONFIG_PROJECT_NAME}/bing_ads.view"
 
 view: bing_ad_metrics_base {
   extends: [bing_ad_metrics_base_config]

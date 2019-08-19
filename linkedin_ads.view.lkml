@@ -1,7 +1,7 @@
 include: "//app-marketing-linkedin-ads-adapter/*.view"
 include: "//app-marketing-linkedin-ads/*.view"
 include: "//app-marketing-linkedin-ads/*.dashboard"
-include: "//@{CONFIG_PROJECT_NAME}/linkedin_ads_config.view"
+include: "//@{CONFIG_PROJECT_NAME}/linkedin_ads.view"
 
 explore: li_period_comparison {
   extends: [li_period_comparison_config]

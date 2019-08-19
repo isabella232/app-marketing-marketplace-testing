@@ -2,7 +2,7 @@ include: "//app-marketing-facebook-ads-adapter/*.view"
 include: "//app-marketing-facebook-ads/*.view"
 include: "//app-marketing-facebook-ads/*.dashboard"
 include: "//app-marketing-common/pdt_base.view.lkml"
-include: "//@{CONFIG_PROJECT_NAME}/facebook_ads_config.view"
+include: "//@{CONFIG_PROJECT_NAME}/facebook_ads.view"
 
 view: fb_adcreative {
   extends: [fb_adcreative_config]

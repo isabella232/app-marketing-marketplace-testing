@@ -4,7 +4,7 @@ include: "//app-marketing-google-ads-adapter/*.view"
 include: "//app-marketing-google-ads/*.view"
 include: "//app-marketing-google-ads/*.dashboard"
 include: "//app-marketing-common/pdt_base.view.lkml"
-include: "//@{CONFIG_PROJECT_NAME}/adwords_config.view"
+include: "//@{CONFIG_PROJECT_NAME}/adwords.view"
 
 view: ad {
   extends: [ad_config]
