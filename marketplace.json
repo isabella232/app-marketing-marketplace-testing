@@ -43,7 +43,7 @@
     "auxiliary_projects": [
         {
             "git_uri": "git://github.com/looker/app-marketing-config-marketplace-testing.git",
-            "git_ref": "9ef9b87d7fe3180a401caea7a884f071b15f254a",
+            "git_ref": "97b23f32e311364d2b24b0e2d2b0ee3f3d2e5633",
             "label": "Marketing App Config",
             "constant_name": "CONFIG_PROJECT_NAME"
         }
