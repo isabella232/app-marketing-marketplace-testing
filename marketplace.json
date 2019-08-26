@@ -10,28 +10,22 @@
     "constants": {
         "CONNECTION_NAME": {
             "label": "Connection Name",
-            "description": "The connection that houses your Marketing data. (Should have been created using Fivetran)",
             "value_constraint": "connection"
         },
         "ADWORDS_SCHEMA_NAME": {
-            "label": "Adwords Schema Name",
-            "description": "The schema name of your Adwords data."
+            "label": "Adwords Schema Name"
         },
         "BING_ADS_SCHEMA_NAME": {
-            "label": "Bing Ads Schema Name",
-            "description": "The schema name of your Bing Ads data."
+            "label": "Bing Ads Schema Name"
         },
         "FACEBOOK_ADS_SCHEMA_NAME": {
-            "label": "Facebook Ads Schema Name",
-            "description": "The schema name of your Facebook Ads data."
+            "label": "Facebook Ads Schema Name"
         },
         "LINKEDIN_ADS_SCHEMA_NAME": {
-            "label": "LinkedIn Ads Schema Name",
-            "description": "The schema name of your LinkedIn Ads data."
+            "label": "LinkedIn Ads Schema Name"
         },
         "CONFIG_PROJECT_NAME": {
-            "label": "Config Project Name",
-            "description": "Name of the config project."
+            "label": "Config Project Name"
         }
     },
     "models": [
@@ -44,7 +38,7 @@
         {
             "git_uri": "git://github.com/looker/app-marketing-config-marketplace-testing.git",
             "git_ref": "97b23f32e311364d2b24b0e2d2b0ee3f3d2e5633",
-            "label": "Marketing App Config",
+            "label": "Digital Marketing Analytics Config",
             "constant_name": "CONFIG_PROJECT_NAME"
         }
     ]
