@@ -1,7 +1,7 @@
 project_name: "app-marketing"
 
 application: digital-marketing {
-  label: "Digital Marketing (MP Ready)"
+  label: "Digital Marketing"
   definition_file: "application.json"
 }
 
