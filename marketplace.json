@@ -24,6 +24,9 @@
         "LINKEDIN_ADS_SCHEMA_NAME": {
             "label": "LinkedIn Ads Schema Name"
         },
+        "PINTEREST_ADS_SCHEMA_NAME": {
+          "label": "Pinterest Ads Schema Name"
+        },
         "CONFIG_PROJECT_NAME": {
             "label": "Config Project Name"
         }
@@ -37,7 +40,7 @@
     "auxiliary_projects": [
         {
             "git_uri": "git://github.com/looker/app-marketing-config-marketplace-testing.git",
-            "git_ref": "97b23f32e311364d2b24b0e2d2b0ee3f3d2e5633",
+            "git_ref": "71ec061cddc6ee14a1d1462584abdb02a77dcd75",
             "label": "Digital Marketing Analytics Config",
             "constant_name": "CONFIG_PROJECT_NAME"
         }

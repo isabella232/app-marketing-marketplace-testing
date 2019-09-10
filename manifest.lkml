@@ -33,6 +33,11 @@ constant: LINKEDIN_ADS_SCHEMA_NAME {
   export: override_optional
 }
 
+constant: PINTEREST_ADS_SCHEMA_NAME {
+  value: "pinterest_ads"
+  export: override_optional
+}
+
 constant: CONFIG_PROJECT_NAME {
   value: "app-marketing-config"
   export: override_required
@@ -58,6 +63,10 @@ local_dependency: {
 
   override_constant: LINKEDIN_ADS_SCHEMA_NAME {
     value: "@{LINKEDIN_ADS_SCHEMA_NAME}"
+  }
+
+  override_constant: PINTEREST_ADS_SCHEMA_NAME {
+    value: "@{PINTEREST_ADS_SCHEMA_NAME}"
   }
 }
 
@@ -93,6 +102,13 @@ remote_dependency: app-marketing-bing-ads-adapter {
   ref: "c3e4b40dc43e95dc0bb9358eb8361d7647d210bf"
 }
 
+# # LookML for analysis and content for Pinterest Ads
+remote_dependency: app-marketing-pinterest-ads-adapter {
+  url: "git://github.com/looker/app-marketing-pinterest-ads-fivetran-bigquery"
+  ref: "9f068d2217a9e7ab8f2ab4b04fc20c910be9c6d5"
+}
+
+
 #LookML for analysis and content for Google Ads
 remote_dependency: app-marketing-google-ads {
   url: "git://github.com/looker/app-marketing-google-ads"
@@ -115,6 +131,12 @@ remote_dependency: app-marketing-linkedin-ads {
 remote_dependency: app-marketing-bing-ads {
   url: "git://github.com/looker/app-marketing-bing-ads"
   ref: "5ae89c4e1167dd3b38d35f15e39863679157eb95"
+}
+
+# LookML for analysis and content for Pinterest Ads
+remote_dependency: app-marketing-pinterest-ads {
+  url: "git://github.com/looker/app-marketing-pinterest-ads"
+  ref: "d9d5775a7c83b6c6c689d2a01821b2c5a6b3a7ed"
 }
 
 # LookML for analysis and content for cross channel reporting
