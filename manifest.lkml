@@ -1,6 +1,6 @@
 project_name: "app-marketing"
 
-application: digital-marketing {
+application: digital-marketing-analytics {
   label: "Digital Marketing"
   definition_file: "application.json"
   config_project: "@{CONFIG_PROJECT_NAME}"
