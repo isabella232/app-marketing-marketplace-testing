@@ -81,19 +81,19 @@ remote_dependency: app-marketing-common {
 # LookML to map the ETL and data warehouse for Google Ads
 remote_dependency: app-marketing-google-ads-adapter {
   url: "git://github.com/looker/app-marketing-google-ads-fivetran-bigquery"
-  ref: "66bd8b41ff601d90bd39d3f0522128a56b40c2e4"
+  ref: "9d03ac068dd377cfe12224f843c9d3f699209db7"
 }
 
 # LookML to map the ETL and data warehouse for Facebook Ads
 remote_dependency: app-marketing-facebook-ads-adapter {
   url: "git://github.com/looker/app-marketing-facebook-ads-fivetran-bigquery"
-  ref: "e965dfa4075f016aeac71df9aa686f4ee6249a93"
+  ref: "2d5530473840c9c52056c83871b0149b716fd0f3"
 }
 
 # LookML to map the ETL and data warehouse for LinkedIn Ads
 remote_dependency: app-marketing-linkedin-ads-adapter {
   url: "git://github.com/looker/app-marketing-linkedin-ads-fivetran-bigquery"
-  ref: "10d08ba9c79b8ae136142e57187e20aa74d4a30b"
+  ref: "a888ada8bb4f2a74e8218a7b9731777ce480ebee"
 }
 
 # LookML to map the ETL and data warehouse for Bing Ads
@@ -105,14 +105,14 @@ remote_dependency: app-marketing-bing-ads-adapter {
 # # LookML for analysis and content for Pinterest Ads
 remote_dependency: app-marketing-pinterest-ads-adapter {
   url: "git://github.com/looker/app-marketing-pinterest-ads-fivetran-bigquery"
-  ref: "9f068d2217a9e7ab8f2ab4b04fc20c910be9c6d5"
+  ref: "d54beb03fb06ee196c46ef34ea49628b6af4137c"
 }
 
 
 #LookML for analysis and content for Google Ads
 remote_dependency: app-marketing-google-ads {
   url: "git://github.com/looker/app-marketing-google-ads"
-  ref: "54d64ffcdd98a365e8f9bc64ac298e1ac88cc6de"
+  ref: "793da35dc5a0ba5c57e8493ab59e68c35afbd278"
 }
 
 # LookML for analysis and content for Facebook Ads
@@ -124,19 +124,19 @@ remote_dependency: app-marketing-facebook-ads {
 # LookML for analysis and content for LinkedIn Ads
 remote_dependency: app-marketing-linkedin-ads {
   url: "git://github.com/looker/app-marketing-linkedin-ads"
-  ref: "419b493d0808d32c4f3309ffef2a314d5728dbaa"
+  ref: "7bf45f6b33efc75fc3d84cff1ace89b16fc5990b"
 }
 
 # LookML for analysis and content for Bing Ads
 remote_dependency: app-marketing-bing-ads {
   url: "git://github.com/looker/app-marketing-bing-ads"
-  ref: "5ae89c4e1167dd3b38d35f15e39863679157eb95"
+  ref: "1d7fc8c2303a5e5cef403e816cfdd216f5c2d9e7"
 }
 
 # LookML for analysis and content for Pinterest Ads
 remote_dependency: app-marketing-pinterest-ads {
   url: "git://github.com/looker/app-marketing-pinterest-ads"
-  ref: "d9d5775a7c83b6c6c689d2a01821b2c5a6b3a7ed"
+  ref: "a4c18ce343b5502bec3e22aac876b3b966d2b164"
 }
 
 # LookML for analysis and content for cross channel reporting
