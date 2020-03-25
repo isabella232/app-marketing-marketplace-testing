@@ -105,7 +105,7 @@ remote_dependency: app-marketing-bing-ads-adapter {
 # # LookML for analysis and content for Pinterest Ads
 remote_dependency: app-marketing-pinterest-ads-adapter {
   url: "git://github.com/looker/app-marketing-pinterest-ads-fivetran-bigquery"
-  ref: "9d03ac068dd377cfe12224f843c9d3f699209db7"
+  ref: "d54beb03fb06ee196c46ef34ea49628b6af4137c"
 }
 
 
