@@ -89,3 +89,85 @@ view: ad_impressions_video {
 view: adwords_period_comparison {
   extends: [adwords_period_comparison_config]
 }
+
+# Explores
+explore: ad_impressions {
+  extends: [ad_impressions_config]
+  hidden: no     
+}
+
+explore: ad_impressions_daily {
+  extends: [ad_impressions_daily_config]
+}
+
+# Daily Campaign Aggregation
+explore: ad_impressions_campaign {
+  extends: [ad_impressions_campaign_config]
+}
+
+explore: ad_impressions_campaign_daily {
+  extends: [ad_impressions_campaign_daily_config]
+}
+
+# Daily Ad Group Aggregation
+explore: ad_impressions_ad_group {
+  extends: [ad_impressions_ad_group_config]
+  hidden: no    
+}
+
+# Hourly Ad Group Aggregation
+explore: ad_impressions_ad_group_hour {
+  extends: [ad_impressions_ad_group_hour_config]
+}
+
+# Daily Keyword Aggregation
+explore: ad_impressions_keyword {
+  extends: [ad_impressions_keyword_config]
+  hidden: no     
+}
+
+# Daily Ad Aggregation
+explore: ad_impressions_ad {
+  hidden:  no
+  extends: [ad_impressions_ad_config]
+}
+
+# Daily Geo Aggregation
+explore: ad_impressions_geo {
+  extends: [ad_impressions_geo_config]
+  hidden: no    
+}
+
+# Daily Age Range Aggregation
+explore: ad_impressions_age_range {
+  extends: [ad_impressions_age_range_config]
+  hidden: no    
+}
+
+# Daily Gender Aggregation
+explore: ad_impressions_gender {
+  extends: [ad_impressions_gender_config]
+}
+
+# Daily Audience Aggregation
+explore: ad_impressions_audience {
+  extends: [ad_impressions_audience_config]
+  hidden: no     
+}
+
+# Daily Parental Status Aggregation
+explore: ad_impressions_parental_status {
+  extends: [ad_impressions_parental_status_config]
+}
+
+# Daily Video Aggregation
+explore: ad_impressions_video {
+  extends: [ad_impressions_video_config]
+  hidden: no     
+}
+
+explore: adwords_period_comparison {
+  extends: [adwords_period_comparison_config]
+  hidden: no
+}
+
