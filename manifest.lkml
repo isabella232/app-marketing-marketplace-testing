@@ -9,32 +9,32 @@ application: digital-marketing-analytics {
 ################ Constants ################
 
 constant: CONNECTION_NAME {
-  value: "looker_app_2"
+  value: "looker_app"
   export: override_required
 }
 
 constant: ADWORDS_SCHEMA_NAME {
-  value: "adwords_generated_2"
+  value: "google_ads"
   export: override_optional # marking these as optional since customer likely has some subset of mktg sources
 }
 
 constant: BING_ADS_SCHEMA_NAME {
-  value: "bings_generated"
+  value: "bings_ads_for_looker"
   export: override_optional
 }
 
 constant: FACEBOOK_ADS_SCHEMA_NAME {
-  value: "facebook_ads_generated"
+  value: "facebook_ads_for_looker"
   export: override_optional
 }
 
 constant: LINKEDIN_ADS_SCHEMA_NAME {
-  value: "linkedin_generated"
+  value: "linkedin_ads"
   export: override_optional
 }
 
 constant: PINTEREST_ADS_SCHEMA_NAME {
-  value: "pinterest_generated"
+  value: "pinterest_ads"
   export: override_optional
 }
 
