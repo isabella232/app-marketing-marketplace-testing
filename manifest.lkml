@@ -112,7 +112,7 @@ remote_dependency: app-marketing-pinterest-ads-adapter {
 #LookML for analysis and content for Google Ads
 remote_dependency: app-marketing-google-ads {
   url: "git://github.com/looker/app-marketing-google-ads"
-  ref: "5e12c5c554c59a389f2730bb3b8e1843713fa87b"
+  ref: "858973420837f60f27f6ffa30a431e755d61de7a"
 }
 
 # LookML for analysis and content for Facebook Ads
