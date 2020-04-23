@@ -55,7 +55,6 @@ view: bing_ad_impressions_ad {
 
 explore: bing_period_comparison {
   extends: [bing_period_comparison_config]
-  hidden: no
 }
 
 view: bing_period_comparison {
