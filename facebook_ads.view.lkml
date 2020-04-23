@@ -72,7 +72,6 @@ view: fb_ad_impressions_platform_and_device {
 
 explore: fb_period_comparison {
   extends: [fb_period_comparison_config]
-  hidden: no
 }
 
 view: fb_period_comparison {
