@@ -46,7 +46,6 @@ view: pinterest_ad_impressions_ad {
 
 explore: pinterest_period_comparison {
   extends: [pinterest_period_comparison_config]
-  hidden: yes
 }
 
 view: pinterest_period_comparison {
