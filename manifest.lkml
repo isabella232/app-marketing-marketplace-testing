@@ -93,7 +93,7 @@ remote_dependency: app-marketing-facebook-ads-adapter {
 # LookML to map the ETL and data warehouse for LinkedIn Ads
 remote_dependency: app-marketing-linkedin-ads-adapter {
   url: "git://github.com/looker/app-marketing-linkedin-ads-fivetran-bigquery"
-  ref: "a888ada8bb4f2a74e8218a7b9731777ce480ebee"
+  ref: "c4a5ff395c421164adbd194e2884a300dd3218db"
 }
 
 # LookML to map the ETL and data warehouse for Bing Ads
