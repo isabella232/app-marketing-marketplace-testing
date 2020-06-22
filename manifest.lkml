@@ -73,7 +73,7 @@ local_dependency: {
 # Library of common ad metrics definitions and date periods
 remote_dependency: app-marketing-common {
   url: "git://github.com/looker/app-marketing-common-bigquery"
-  ref: "fc52c06885fdfed63b74f9803a3cda01450871f9"
+  ref: "d0405a8ef76925449d722b11103f419b3d40e37b"
 }
 
 # TODO: Only include remote dependencies for data sources and ETLs as applicable
