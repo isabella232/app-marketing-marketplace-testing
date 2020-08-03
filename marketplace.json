@@ -1,0 +1,48 @@
+{
+    "label": "Digital Marketing Analytics",
+    "category_label": "Applications",
+    "branding": {
+      "badge": "Beta",
+      "brand_color": "#6c43e0",
+      "image_uri": "https://marketplace-api.looker.com/app-icons/icon_digital_marketing.svg",
+      "tagline": "Gain a holistic view of all digital marketing sources to understand your spend and returns."
+    },
+    "constants": {
+        "CONNECTION_NAME": {
+            "label": "Connection Name",
+            "value_constraint": "connection"
+        },
+        "ADWORDS_SCHEMA_NAME": {
+            "label": "Adwords Schema Name"
+        },
+        "BING_ADS_SCHEMA_NAME": {
+            "label": "Bing Ads Schema Name"
+        },
+        "FACEBOOK_ADS_SCHEMA_NAME": {
+            "label": "Facebook Ads Schema Name"
+        },
+        "LINKEDIN_ADS_SCHEMA_NAME": {
+            "label": "LinkedIn Ads Schema Name"
+        },
+        "PINTEREST_ADS_SCHEMA_NAME": {
+          "label": "Pinterest Ads Schema Name"
+        },
+        "CONFIG_PROJECT_NAME": {
+            "label": "Config Project Name"
+        }
+    },
+    "models": [
+        {
+            "name": "marketing_analytics",
+            "connection_constant": "CONNECTION_NAME"
+        }
+    ],
+    "auxiliary_projects": [
+        {
+            "git_uri": "git://github.com/looker/app-marketing-config-marketplace-testing.git",
+            "git_ref": "09789109da2897931b44b41e265e6b564671c5c6",
+            "label": "Digital Marketing Analytics Config",
+            "constant_name": "CONFIG_PROJECT_NAME"
+        }
+    ]
+}
